@@ -1,0 +1,1 @@
+export { PaintApp } from './PaintApp';

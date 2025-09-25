@@ -1,0 +1,9 @@
+.colorControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  white-space: nowrap;
+}

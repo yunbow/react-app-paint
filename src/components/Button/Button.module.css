@@ -1,0 +1,51 @@
+.button {
+  padding: 8px 15px;
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  opacity: 0.6;
+}
+
+.active {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.active:hover {
+  opacity: 0.9;
+}
+
+.danger {
+  background-color: var(--color-destructive);
+  color: var(--color-destructive-foreground);
+}
+
+.danger:hover {
+  opacity: 0.9;
+}
+
+.success {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.success:hover {
+  opacity: 0.9;
+}

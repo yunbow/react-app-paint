@@ -1,0 +1,14 @@
+.colorPicker {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  overflow: hidden;
+}
+
+.colorPicker:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

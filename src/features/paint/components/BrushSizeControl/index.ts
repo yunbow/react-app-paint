@@ -1,0 +1,1 @@
+export { BrushSizeControl } from './BrushSizeControl';
